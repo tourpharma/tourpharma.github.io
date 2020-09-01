@@ -588,7 +588,6 @@ ul{
 
 		#banner:before {
 			content: '';
-			background: rgba(148, 148, 156, 0.85);
 			position: absolute;
 			width: 100%;
 			height: 100%;
