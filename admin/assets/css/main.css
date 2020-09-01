@@ -9,6 +9,9 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+ul{
+	list-style:none;
+}
 
 /* Box Model */
 
