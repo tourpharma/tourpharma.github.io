@@ -9,9 +9,6 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-ul{
-	list-style:none;
-}
 
 /* Box Model */
 
@@ -350,8 +347,16 @@ ul{
 /* Button */
 
 	.button {
-		
-		
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		background-color: transparent;
+		overflow: hidden;
 		background-color: transparent;
 		box-shadow: inset 0 0 0 3px #005a5b;
 		color: #005a5b; !important;
@@ -393,7 +398,7 @@ ul{
 
 
 	#header {
-		color: #005a5b;
+		color: #000808;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -414,11 +419,11 @@ ul{
 			padding: 0 0.75em;
 			color: inherit;
 			text-decoration: none;
-			font-size: 1em;
+			font-size: 1.2em;
 		}
 
 			#header a:hover {
-				color: lightgreen;
+				color: #005a5b;
 			}
 
 			#header a:last-child {
@@ -605,7 +610,7 @@ ul{
 		#banner h1 {
 			font-size: 3.5em;
 			font-weight: 400;
-			color: #005a5b;
+			color: #000808;
 			line-height: 1em;
 			margin: 0 0 1em 0;
 			padding: 0;
@@ -613,13 +618,13 @@ ul{
 
 		#banner h3 {
 			font-weight: 400;
-			color: #005a5b;
+			color: #000707;
 			margin: 0;
 			font-size: 1.5em;
 		}
 
 		#banner .icon {
-			color: #005a5b;
+			color: #000707;
 			font-size: 2em;
 		}
 
